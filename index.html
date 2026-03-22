@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Fouad | Developer</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* Profile */
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #00c6ff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* Projects */
+.project {
+    background: rgba(0,0,0,0.3);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #00c6ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* WhatsApp */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    color: white;
+}
+.bt1n {
+    display: block;
+    margin: 20px auto;  /* دي أهم حاجة */
+    padding: 10px 20px;
+    background: #178501e7;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h3 id="logo">محمد فؤاد</h3>
+    <div>
+        <button onclick="setLang('ar')">AR</button>
+        <button onclick="setLang('en')">EN</button>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- Profile -->
+    <div class="card profile">
+        <img src="Pro.jpg">
+        <h1 id="name">محمد فؤاد</h1>
+        <p id="desc">مطور برمجيات متخصص في Python و Flutter و HTML و Java،  
+        أقوم ببناء تطبيقات حديثة وتصميم واجهات مستخدم احترافيه</p>
+    </div>
+
+    <!-- About -->
+    <div class="card">
+        <h2 id="aboutTitle">عنّي</h2>
+        <p id="aboutText">
+            أنا مبرمج برمجيات شغوف بالتكنولوجيا وتطوير التطبيقات، أمتلك خبرة في Python و Flutter و تطوير الويب باستخدام HTML و Java. 
+            أسعى دائماً لتطوير مهاراتي وبناء مشاريع عملية تساعد في حل المشكلات بطرق ذكية واحترافية. 
+            أؤمن أن النجاح في البرمجة يأتي من الاستمرارية والمجهود والتعلم اليومي.
+        </p>
+    </div>
+
+    <!-- Skills -->
+    <div class="card">
+        <h2>مهاراتي</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>Flutter</span>
+            <span>HTML</span>
+            <span>Java</span>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="card">
+        <h2>تفاصيل عن برمجه</h2>
+        <div class="project"> البرمجة ليست مجرد كتابة أكواد، بل هي مهارة تحتاج إلى الصبر والتعلم المستمر والممارسة اليومية.  </div>
+        <div class="project"> من خلال المجهود والتجربة يمكن بناء تطبيقات قوية وحل مشاكل معقدة بطريقة احترافية.  </div>
+        <div class="project"> كل مشروع يتم تنفيذه يزيد من الخبرة ويقربك أكثر من الاحتراف في مجال تطوير البرمجيات.</div>
+    </div>
+
+    <!-- Contact -->
+    <div class="card">
+        <h2 id="contactTitle">تواصل</h2>
+        <a href="https://www.facebook.com/pheeleep.stat" class="btn" id="contactBtn">فيسبوك</a>
+        <a href="https://wa.me/201150397269" class="btn">واتساب</a>
+    </div>
+
+</div>
+<div class="card">
+        <h2>لغات برمجيات</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>Flutter</span>
+            <span>HTML</span>
+            <span>Java</span>
+        </div>
+    </div>
+<!-- WhatsApp -->
+<a href="https://wa.me/201150397269" class="whatsapp">💬</a>
+<center><u><h1>البدايه صعبه لاكن لا تستسلم كل شي بي يدي له</h1></u></center>
+<a href="certificate.html" class="bt1n"h2><h2>اضغط لي رويه شهاده تعلم لغات</h2></a>
+<script>
+function setLang(lang) {
+    if(lang === "en"){
+        document.documentElement.dir = "ltr";
+        document.getElementById("name").innerText = "Mohamed Fouad";
+        document.getElementById("desc").innerText = "Software Developer (Python & Flutter)";
+        document.getElementById("aboutTitle").innerText = "About Me";
+        document.getElementById("aboutText").innerText =
+        "I am a passionate software developer with experience in Python, Flutter, and web development using HTML and Java. I always strive to improve my skills and build real-world projects that solve problems in smart and efficient ways. I believe success in programming comes from consistency, effort, and continuous learning.";
+        document.getElementById("contactTitle").innerText = "Contact";
+        document.getElementById("contactBtn").innerText = "Facebook";
+    } else {
+        document.documentElement.dir = "rtl";
+        document.getElementById("name").innerText = "محمد فؤاد";
+        document.getElementById("desc").innerText = "مطور برمجيات متخصص في Python و Flutter";
+        document.getElementById("aboutTitle").innerText = "عنّي";
+        document.getElementById("aboutText").innerText =
+        "أنا مبرمج برمجيات شغوف بالتكنولوجيا وتطوير التطبيقات، أمتلك خبرة في Python و Flutter و تطوير الويب باستخدام HTML و Java. أسعى دائماً لتطوير مهاراتي وبناء مشاريع عملية تساعد في حل المشكلات بطرق ذكية واحترافية. أؤمن أن النجاح في البرمجة يأتي من الاستمرارية والمجهود والتعلم اليومي.";
+        document.getElementById("contactTitle").innerText = "تواصل";
+        document.getElementById("contactBtn").innerText = "فيسبوك";
+    }
+}
+</script>
+
+</body>
+</html>
